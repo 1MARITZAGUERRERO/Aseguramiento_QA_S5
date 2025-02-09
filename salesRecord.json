@@ -1,0 +1,14 @@
+[
+   {"product_id": "P001", "quantity": 2},
+   {"product_id": "P002", "quantity": 3},
+   {"product_id": "P004", "quantity": 1},
+   {"product_id": "P005", "quantity": -5},
+   {"product_id": "P005", "quantity": 8},
+   {"product_id": "P007", "quantity": 3},
+   {"product_id": "P010", "quantity": -2},
+   {"product_id": "P012", "quantity": 15},
+   {"product_id": "P003", "quantity": 3},
+   {"product_id": "P008", "quantity": 4},
+   {"product_id": "P010", "quantity": 1},
+   {"product_id": "P015", "quantity": 8}
+]

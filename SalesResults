@@ -1,0 +1,19 @@
+Costo total de ventas: $664.40
+
+Detalles de ventas:
+Producto: P001, Cantidad: 2, Precio unitario: $10.50, Costo total: $21.00
+Producto: P002, Cantidad: 3, Precio unitario: $20.00, Costo total: $60.00
+Producto: P005, Cantidad: 8, Precio unitario: $11.80, Costo total: $94.40
+Producto: P012, Cantidad: 15, Precio unitario: $30.50, Costo total: $457.50
+Producto: P003, Cantidad: 3, Precio unitario: $3.50, Costo total: $10.50
+Producto: P008, Cantidad: 4, Precio unitario: $2.75, Costo total: $11.00
+Producto: P010, Cantidad: 1, Precio unitario: $10.00, Costo total: $10.00
+
+Tiempo de ejecución: 0.0029 segundos
+
+Errores encontrados:
+Producto no encontrado en catálogo: P004
+Cantidad inválida para producto P005: -5
+Producto no encontrado en catálogo: P007
+Cantidad inválida para producto P010: -2
+Producto no encontrado en catálogo: P015
