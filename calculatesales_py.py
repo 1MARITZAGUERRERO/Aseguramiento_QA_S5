@@ -18,7 +18,6 @@ El resultado se muestra en pantalla y se guarda en SalesResults.txt.
 import json
 import sys
 import time
-import os
 import glob
 
 from google.colab import drive
@@ -35,6 +34,7 @@ RESULT_FILE = (
     "/content/drive/MyDrive/Calidad_software/Semana5/SalesResults.txt"
 )
 
+
 def load_json(file_path):
     """
     Carga un archivo JSON y maneja errores.
@@ -48,6 +48,7 @@ def load_json(file_path):
         print(f"Error: {file_path} no tiene un formato JSON válido.")
     return None
 
+
 def build_price_catalogue(product_list):
     """
     Crea un diccionario de precios basado en el título
@@ -55,6 +56,7 @@ def build_price_catalogue(product_list):
     """
     return {product["title"]: product["price"] for
             product in product_list}
+
 
 def calculate_total_sales(price_catalogue, sales_records):
     """
@@ -87,8 +89,8 @@ def calculate_total_sales(price_catalogue, sales_records):
             f"Producto: {product_name}, Cantidad: {quantity}, "
             f"Precio unitario: ${price:.2f}, Costo total: ${total_cost:.2f}"
         )
-
     return total_sales, detailed_sales, errors
+
 
 def main():
     """Función principal del programa."""
@@ -128,9 +130,9 @@ def main():
         result_text += "\nErrores encontrados:\n" + "\n".join(errors) + "\n"
 
     print(result_text)
-
     with open(RESULT_FILE, "w", encoding="utf-8") as result_file:
         result_file.write(result_text)
+
 
 if __name__ == "__main__":
     main()
